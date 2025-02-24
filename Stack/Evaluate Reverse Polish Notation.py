@@ -26,7 +26,3 @@ class Solution:
             print(stack)
 
         return stack[-1]
-
-tokens=["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
-solution = Solution()
-print(solution.evalRPN(tokens))

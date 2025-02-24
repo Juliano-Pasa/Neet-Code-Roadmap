@@ -30,9 +30,3 @@ class Solution:
                 right = mid
             else:
                 left = mid + 1
-
-nums1 = [1, 2] 
-nums2 = [3]
-
-solution = Solution()
-print(solution.findMedianSortedArrays(nums1, nums2))
